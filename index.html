@@ -1,435 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="MMSQL-bench">
-  <meta name="author" content="Ziming Guo">
-  <link rel="icon" href="./logo/logo.png" type="image/x-icon">
-  <title>MMSQL-bench</title>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
 
-  <!-- Bootstrap core CSS -->
-  <link href="./style/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="./style/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="./style/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Custom styles for this template -->
-  <link href="./style/clean-blog.min.css" rel="stylesheet">
-  <link href="./style/bird.css" rel="stylesheet">
 
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
 </head>
-
 <body>
-  <header class="masthead" id="header-color">
-    <div style="background-color: #485159; text-align: left;">
-      <img style="margin-top: 5px; padding: 10px;" height="85px" src="./logo/hust.png" title="Harbin University of Science and Technology">
-      <img style="margin-top: 6px; padding: 10px;" height="87px" src="./logo/hit.png" title="Harbin Institute of Technology">
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-md-12 mx-auto">
-          <div class="row site-heading flex-box">
-            <div class="col-lg-3">
-              <img id="logo-img" src="logo/logo.png" alt="logo" />
-            </div>
-            <div class="col-lg-9">
-              <div class="align-middle">
-                <h1 id="mmsql-title">
-                  MMSQL
-                </h1>
-                <span class="subheading" id="caption">Multiple type Multi-turn Text-to-SQL test set</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
 
-  <!-- Main Content -->
-  <div class="container" id="main">
-    <div class="row">
-      <div class="col-lg-5">
-        <div class="list-group">
-          <div class="list-group-item" id="introduction">
-            <h4>About MMSQL</h4>
-            <p>
-              The MMSQL dataset was curated from the CoSQL data, which we refer to as the Multiple type Multi-turn Text-to-SQL test set (MMSQL). For the evaluation, we developed the Accuracy with SQL Matching (AccS) metric.
-            </p>
-            <div id="button-group">
-              <div class="button-row">
-                <a href="https://arxiv.org/pdf/2305.03111.pdf" target="_blank">
-                  <button type="button" class="btn  btn-a">Paper</button>
-                </a>
-              </div>
-              <div class="button-row">
-                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird" target="_blank">
-                  <button type="button" class="btn btn-a">
-                    Code
-                  </button>
-                </a>
-              </div>
-              <div class="button-row">  
-                <button type="button" class="btn btn-d" onclick="showMiniDevMessage()">Mini-Dev (508)</button>  
-              </div>  
-              <div class="button-row" id="button-row-b">
-                <div class="btn-round">
-                  <a href="https://bird-bench.oss-cn-beijing.aliyuncs.com/train.zip" target="_blank">
-                    <button type="button" class="btn btn-b">Train Set</button>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
                   </a>
-                </div>
-                <div class="btn-round">
-                  <a href="https://bird-bench.oss-cn-beijing.aliyuncs.com/dev.zip" target="_blank">
-                    <button type="button" class="btn btn-b">🔥 Dev Set</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <style>  
-            .scroll-container {  
-              position: relative;  
-              width: 100%;  
-              max-height: 300px;  
-              overflow-y: scroll;  
-            }  
-              
-            /* Hide the scrollbar by default */  
-            .scroll-container::-webkit-scrollbar {  
-                width: 10px;  
-                background: transparent;
-            }  
-              
-            /* Set the scrollbar thumb color */  
-            .scroll-container::-webkit-scrollbar-thumb {  
-                background-color: #FFFFFF;  
-                border-radius: 5px;  
-            }  
-              
-            /* Show the scrollbar when the mouse is hovering over the scroll container */  
-            .scroll-container:hover::-webkit-scrollbar {  
-                width: 10px;  
-            }  
-              
-            .scroll-container:hover::-webkit-scrollbar-thumb:hover {  
-                background-color: #555;  
-            }  
-            
-          </style>
-          <script>  
-            function showMiniDevMessage() {  
-              alert("Coming Soon: Mini-Dev! Dive into 500 top-tier SQL cases covering all keywords in MMSQL, including advanced window functions. For the first time, we're also including PostgreSQL and MySQL. Stay ahead and subscribe us for the immediate launch.");  
-            }  
-          </script>  
-          
-          <div class="list-group-item" id="news">
-            <h4>News</h4>
-            
-            <div class="scroll-container">  
-              <div class="card card-outline-secondary mb-4" style="text-align: left;">                      
-                  <div class="card-body" style="background-color: #F1F6F9;">  
-                      <ul style="padding-left: 0;">
-                          <li style="list-style-type: none;"><span style="background-color: #22A699; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #FFE7CE">May. 27, 2024:</strong></span> Glad to share our paper <a href="https://arxiv.org/abs/2405.15307">Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation (TA-SQL)</a>, which will appear at <code><strong>ACL 2024</strong></code> Findings. This is a light but effective method to calbriate hallucinations of text-to-SQL generation. Additionally, we firstly introduce Pythonic prompts for text-to-SQL and include results on open-source LLMs.</li>
-                          <li style="list-style-type: none;"><span style="background-color: #22A699; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #FFE7CE">Apr. 27, 2024:</strong></span> Due to large volume of requests, we now modify the license of our data to <code><strong>CC BY-SA 4.0</strong></code>. However, we will not take responsibility of any bad purposes by using our data. Since we develop this benchmark for research and healthy application only.</li>
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #FFE7CE">Mar 13, 2024:</strong></span> Please also take a look at our related work: <a href="https://arxiv.org/abs/2403.05307">Tapilot-Crossing</a>, which is the first challenging and more realistic benchmark designed to evaluate Large Language Model (LLM) agents on interactive data analysis tasks. The code includes Python and Private Library. And it covers 6 common agent actions in evaluation.</li>
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #FFE7CE">Sept 25, 2023:</strong></span> We have released a cleaner version of <code>dev set</code>. Please download dev set again. We checked all cases of dev set and fixed all errors that we found. After cleaning, the ChatGPT (gpt-3.5-turbo) and GPT4 (gpt-4-32k) EX scores have improved to <strong>42.24</strong> (from 37.22) and <strong>49.15</strong> (from 46.35), respectively. Thanks for all feedbacks!</li>
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #FFE7CE">Sept 21, 2023:</strong></span> Our paper has been accepted by <code><strong>NeurIPS 2023</strong></code> as a <code><strong>Spotlight</strong></code>!!! Thanks for all the efforts and suggestions of co-authors, anonymous reviewers, awesome researchers/users in github or emails.</li> 
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #F6F1F1">July 17, 2023:</strong></span> We update newest results of GPT-4, Claude-2 and Palm-2. </li>  
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #F6F1F1">July 14, 2023:</strong></span> The data link has been updated, fixing the schema names in the CSV files. Additionally, tied results caused by <code>order_by limit 1</code> are now considered. Both SQL queries - with and without accounting for tied results -  
-                              are valid at this time.</li>
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #F6F1F1">Jun 12, 2023:</strong></span> We are welcome to any suggestions and reported gold errors in <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/issues/39">help_wanted</a>. Any of your help is appreciated!</li>
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #F6F1F1">Jun 5, 2023:</strong></span> We open-sourced our <a href="https://arxiv.org/abs/2301.07507">Graphix-T5</a>, a graph-aware semi-pretrained text-to-text PLM specifically designed to improve multi-hop reasoning for the complex text-to-SQL task.  
-                          <li style="list-style-type: none;"><span style="background-color: #4F709C; color: white; padding: 2px 4px; border-radius: 5px;"><strong style="color: #F6F1F1">May 30, 2023:</strong></span> If you are interested in ICL, please check out our interesting work <a href="https://arxiv.org/pdf/2305.13016.pdf">deep-thinking🤔.</a> Generate 1000 models for 1000 people smoothly!  
-                          </li>  
-                      </ul>  
-                  </div>  
-              </div>  
-            </div>
-          </div>
-          <div class="list-group-item" id="illustration">
-            <h4>Surprise from MMSQL</h4>
-            <p>
-              <b>1. Large and Dirty values:</b> Due to the nature of the real-world scenarios from which MMSQL's database
-              values were collected, they typically retain their original and frequently "dirty" format. Hence,
-              text-to-SQL parsers must first analyze these values to account for their non-standard format before
-              engaging in reasoning.
-            </p>
-            <img src="./img/dirty_1.png" class="column-img" id="dirty-img-1" style="margin:0 auto;" />
-            <img src="./img/dirty_2.png" class="column-img" id="dirty-img-2" style="margin:0 auto;" />
-            <p>
-              <b>2. External Knowledge:</b> "account.type = 'OWNER'" can be inferred by the knowledge evidence: "The
-              condition of the loans require the account type should be the owner."
-            </p>
-            <img src="./img/ex_kg_2.png" class="column-img" id="kg-img" style="margin:0 auto;" />
-            <p>
-              <b>3. Text-to-Efficient-SQL:</b> MMSQL is the first text-to-SQL benchmark designed to encourage semantic
-              parsers to produce SQL queries that are not only correct but also efficient. This emphasis on efficiency
-              is especially valuable in real-world data / business analysis circumstances.
-            </p>
-            <img src="./img/efficient_sql.png" class="column-img" id="eff-img" style="margin:0 auto;" />
-          </div>
-          <div class="list-group-item">
-            <h4>Submission</h4>
-            <p>Please follow the Submission Guideline (below) and contact <code>mmsql.bench23@gmail.com</code> for test evaluation. Ususally, we will return your results in 10 days!
-             
-            </p>
-            <style>  
-              .btn-a {  
-                border-radius: 25px; /* Adjust this value to change the roundness of the button */  
-              }  
-              .btn-a:hover {  
-                background-color: #22A699; /* Change the background color when the cursor is over the button */  
-              }  
-            </style>  
-            <div class="button-row">
-              <a href="https://docs.google.com/document/d/1Rs6d_pcs2vfqW4Ymub7Wb1XtBNlrc-WfH3T7U1ktuBo/edit?usp=sharing" target="_blank">
-                <button type="button" class="btn  btn-a">Submission Guidelines</button>
-              </a>
-            </div>
-          </div>
-          
-          <div class="list-group-item">
-            <h4>Subscribe to MMSQL Update</h4>  
-            <p>MMsql is a long-term research project aimed at bridging the gap between semantic parsing models and the success of database applications. To receive the latest updates of the dataset, you can leave your email address.
-            </p>
-            <form onsubmit="return submitForm();">  
-                <input type="email" id="email" name="email" placeholder="Email address" required>  
-                <button type="submit">Subscribe</button>  
-            </form>  
-            <p id="message"></p>  
-          </div> 
-          
-          <head>  
-              <meta charset="utf-8">  
-              <title>Email Subscription</title>  
-              <script>  
-                function submitForm() {  
-                  var email = document.getElementById("email").value;  
-                  var url = "https://script.google.com/macros/s/AKfycbynv6Ibnl9gJosprkRmXhbKtllZX8dqrbj_xQkcbZ_NgEDBxwyjz1xyvIvnm_4yPh3ZPA/exec";  
-                  var data = "email=" + encodeURIComponent(email);  
-                    
-                  fetch(url, {  
-                    method: "POST",  
-                    body: data,  
-                    headers: {  
-                      "Content-Type": "application/x-www-form-urlencoded"  
-                    }  
-                  })  
-                  .then(response => response.text())  
-                  .then(text => {  
-                    document.getElementById("message").innerHTML = "<i>Subscribe Successfully! Thanks for your attention!</i>";  
-                  })  
-                  .catch(error => {  
-                    console.error("Error:", error);  
-                  });  
-                    
-                  return false;  
-                }  
-              </script>  
-          </head>   
-          <div class="list-group-item">
-            <h4>Citation</h4>
-            <pre id="citation">
-@article{li2024can,
-  title={Can llm already serve as a database interface? a big bench for large-scale database grounded text-to-sqls},
-  author={Li, Jinyang and Hui, Binyuan and Qu, Ge and Yang, Jiaxi and Li, Binhua and Li, Bowen and Wang, Bailin and Qin, Bowen and Geng, Ruiying and Huo, Nan and others},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
-  year={2024}
-}</pre>
-          </div>
-        </div>
-      </div>
+                </span>
 
-      <div class="col-lg-7">
-        
-        <div class="card card-outline-secondary">
-          <div class="card-header">
-            Leaderboard - Accuracy with SQL Matching (AccS)
-          </div>
-          <div class="table-wrapper">
-            <table class="table" id="ex-table">
-              <thead class="thead-light">
-                <tr>
-                  <th scope="col" rowspan="1"></th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Model</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Code</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Size</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Oracle Knowledge</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>GPT-4 (gpt-4-32k)</td>
-                  <td><a href="https://openai.com/research/gpt-4" target="_blank">Code</a></td>
-                  <td>32k</td>
-                  <td>No</td>
-                  <td>49.15</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Claude-2</td>
-                  <td><a href="https://www.anthropic.com/index/claude-2" target="_blank">Code</a></td>
-                  <td>100k</td>
-                  <td>No</td>
-                  <td>47.85</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>PaLM-2</td>
-                  <td><a href="https://ai.google/discover/palm2" target="_blank">Code</a></td>
-                  <td>340B</td>
-                  <td>No</td>
-                  <td>46.40</td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>ChatGPT (gpt-3.5-turbo)</td>
-                  <td><a href="https://openai.com/research/gpt-3-5" target="_blank">Code</a></td>
-                  <td>16k</td>
-                  <td>No</td>
-                  <td>42.24</td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Graphix-T5</td>
-                  <td><a href="https://arxiv.org/abs/2301.07507" target="_blank">Code</a></td>
-                  <td>11B</td>
-                  <td>No</td>
-                  <td>39.80</td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td>TAPEX</td>
-                  <td><a href="https://arxiv.org/abs/2107.07653" target="_blank">Code</a></td>
-                  <td>3B</td>
-                  <td>No</td>
-                  <td>34.50</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="card card-outline-secondary mt-4">
-          <div class="card-header">
-            Leaderboard - Execution Accuracy (EX)
-          </div>
-          <div class="table-wrapper">
-            <table class="table" id="ex-table">
-              <thead class="thead-light">
-                <tr>
-                  <th scope="col" rowspan="1"></th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Model</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Code</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Size</th>
-                  <th scope="col" rowspan="1" class="align-middle text-center">Oracle Knowledge</th>
-                  <th scope="col" colspan="1" class="text-center">Dev (%)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>GPT-4 (gpt-4-32k)</td>
-                  <td><a href="https://openai.com/research/gpt-4" target="_blank">Code</a></td>
-                  <td>32k</td>
-                  <td>No</td>
-                  <td>49.15</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Claude-2</td>
-                  <td><a href="https://www.anthropic.com/index/claude-2" target="_blank">Code</a></td>
-                  <td>100k</td>
-                  <td>No</td>
-                  <td>47.85</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>PaLM-2</td>
-                  <td><a href="https://ai.google/discover/palm2" target="_blank">Code</a></td>
-                  <td>340B</td>
-                  <td>No</td>
-                  <td>46.40</td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>ChatGPT (gpt-3.5-turbo)</td>
-                  <td><a href="https://openai.com/research/gpt-3-5" target="_blank">Code</a></td>
-                  <td>16k</td>
-                  <td>No</td>
-                  <td>42.24</td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Graphix-T5</td>
-                  <td><a href="https://arxiv.org/abs/2301.07507" target="_blank">Code</a></td>
-                  <td>11B</td>
-                  <td>No</td>
-                  <td>39.80</td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td>TAPEX</td>
-                  <td><a href="https://arxiv.org/abs/2107.07653" target="_blank">Code</a></td>
-                  <td>3B</td>
-                  <td>No</td>
-                  <td>34.50</td>
-                </tr>
-              </tbody>
-            </table>
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; MMSQL 2024</p>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          </p>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
+<!-- End paper abstract -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="./script/jquery.min.js"></script>
-  <script src="./script/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="./script/clean-blog.min.js"></script>
-</body>
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
 
-</html>
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
