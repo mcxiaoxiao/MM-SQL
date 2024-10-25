@@ -38,7 +38,7 @@ python RQS_eval.py outputs/Llama-3-70B.json outputs/gpt4_scored_Llama-3-70B.json
 Use the `accs_eval.py` script to calculate several metrics from the output JSON files, including base metric (e.g. ACCS, IACCS, EM, QM...) and analytical results.
 
 ```bash
-python accs_eval.py outputs/gpt4_scored_Llama-3-70B.json
+python python ACCS_eval.py outputs/one-shot/gpt4_scored_Llama-3-70B.json 
 ```
 
 ### Output Example

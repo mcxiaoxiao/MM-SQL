@@ -649,6 +649,7 @@ with open(args.json_file_path, 'r', encoding='utf-8') as file:
 duem = 0
 iduem_count = 0
 qm_count = 0
+iem_count = 0
 im_count = 0
 allsqlqa = 0
 allsqla = 0
@@ -692,6 +693,7 @@ for element in tqdm(data):
     allturn += 1
     iaccs = True
     imatch = True
+    iematch = True
     iduem = True
     for i in range(len(turns) - 1):
         
@@ -753,9 +755,6 @@ for element in tqdm(data):
                 if turns[i+1].get('Refiner','') != '':
                     sql_to_eval = ''
 
-
-
-
                 if i-2 >= 0 and turns[i-2].get('type','') == 'ambiguous':
                     AmbClaA_count += 1
                 try:
@@ -770,7 +769,9 @@ for element in tqdm(data):
                         iduem = False
                         print("\033[91mIDUEM failed\033[0m")
                         print("\033[91mEM error\033[0m")
+                        iematch = False
                 except Exception as e:
+                    iematch = False
                     print("\033[91mEM error\033[0m")
                     print(e)
 
@@ -880,6 +881,7 @@ for element in tqdm(data):
                             else:
                                 print("\033[91mEM failed\033[0m")
                         except Exception as e:
+                            iematch = False
                             print("\033[91mEM error\033[0m")
                             print(e)
                             print("\033[91mEM failed\033[0m")
@@ -907,6 +909,9 @@ for element in tqdm(data):
     if iduem:
         print("\033[92mIDUEM+1\033[0m")
         iduem_count += 1
+    if iematch:
+        print("\033[92mIEM+1\033[0m")
+        iem_count += 1
 
 
 print("_____________________________________")
@@ -928,13 +933,15 @@ print(f"| DUEM   | {duem:<5} | {allqa:<5} | {percentage1:.1f}%      |")
 print(f"| IDUEM   | {iduem_count:<5} | {allqa:<5} | {percentage1_iduem:.1f}%      |")
 
 print(f"| QM     | {qm_count:<5} | {allsqlqa:<5} | {percentage4:.1f}%      |")
+print(f"| IQM     | {im_count:<5} | {allturn:<5} | {percentage6:.1f}%      |")
 print(f"| EM     | {em_count:<5} | {allsqlqa:<5} | {percentage3:.1f}%      |")
+print(f"| IEM     | {iem_count:<5} | {allturn:<5} | {percentage3:.1f}%      |")
 
 print(f"| ACCS   | {accs:<5} | {allqa:<5} | {percentage2:.1f}%      |")
 print(f"| IACCS  | {iaccs_count:<5} | {allturn:<5} | {percentage2_iaccs:.1f}%      |")
 
 print(f"| ERROR  | {error_count:<5} | {allsqlqa:<5} | {percentage5:.1f}%      |")
-print(f"| IM     | {im_count:<5} | {allturn:<5} | {percentage6:.1f}%      |")
+
 print("-------------------------------------")
 
 
