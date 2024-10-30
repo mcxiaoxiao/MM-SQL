@@ -404,7 +404,7 @@ def calculate_f1(precision, recall):
     return 2 * (precision * recall) / (precision + recall)
 
 def eval_exec_match(db_path, db, p_str, g_str):
-    """Evaluates the EM of SQL query.
+    """Evaluates the EX of SQL query.
 
     Args:
         db_path (str): Path to the SQLite database directory.
@@ -757,7 +757,9 @@ for element in tqdm(data):
                     if eval_exec_match("datasets/cosql_dataset/database",db_name, turns[i+1].get('predict_sql',''), turns[i+1].get('query','')):
                         em_count += 1
                         duem += 1
-
+                        if i-2 >= 0 and turns[i-2].get('type','') == 'ambiguous':
+                            AmbClaA += 1
+                            print("\033[92mAmbClaA+1\033[0m")
                         print("\033[92mEM+1\033[0m")
                         print("\033[92mDUEM+1\033[0m")
                     else:
@@ -777,9 +779,7 @@ for element in tqdm(data):
                         accs += 1
                         print("\033[92mACCS+1\033[0m")
                         turn_qm_counts[turn_number+1] += 1 
-                        if i-2 >= 0 and turns[i-2].get('type','') == 'ambiguous':
-                            AmbClaA += 1
-                            print("\033[92mAmbClaA+1\033[0m")
+                        
                         print("\033[92mACCS+1\033[0m")
                     else:
                         iaccs = False
@@ -804,8 +804,9 @@ for element in tqdm(data):
                 try:
                     print("AMBA")
                     ambiguous_ans = parse_sql(turns[i+1].get('predict',''))
-                    print(ambiguous_ans)
-                    if qm("datasets/cosql_dataset/database",turns[i+3].get('query',''), ambiguous_ans, db_name):
+                    print("ambiguous_ans: "+ambiguous_ans)
+                    print("ambiguous_pred:"+turns[i+3].get('query',''))
+                    if eval_exec_match("datasets/cosql_dataset/database", db_name ,turns[i+3].get('query',''), ambiguous_ans):
                         AmbA += 1
                         print("\033[92mAmbA+1\033[0m")
                 except Exception as e:
@@ -928,11 +929,11 @@ print("A. Overall Result Analysis")
 print("_____________________________________")
 print("| Metric | Count | Total | Percentage |")
 print("|--------|-------|-------|------------|")
-print(f"| DUEM   | {duem:<5} | {allqa:<5} | {percentage1:.1f}%      |")
-print(f"| IDUEM   | {iduem_count:<5} | {allqa:<5} | {percentage1_iduem:.1f}%      |")
+print(f"| TDEX   | {duem:<5} | {allqa:<5} | {percentage1:.1f}%      |")
+print(f"| ITDEX   | {iduem_count:<5} | {allqa:<5} | {percentage1_iduem:.1f}%      |")
 
-print(f"| QM     | {qm_count:<5} | {allsqlqa:<5} | {percentage4:.1f}%      |")
-print(f"| IQM     | {im_count:<5} | {allturn:<5} | {percentage6:.1f}%      |")
+print(f"| EM     | {qm_count:<5} | {allsqlqa:<5} | {percentage4:.1f}%      |")
+print(f"| IEM     | {im_count:<5} | {allturn:<5} | {percentage6:.1f}%      |")
 print(f"| EX     | {em_count:<5} | {allsqlqa:<5} | {percentage3:.1f}%      |")
 print(f"| IEX     | {iem_count:<5} | {allturn:<5} | {percentage7:.1f}%      |")
 
@@ -966,9 +967,9 @@ print(f"| {'Average F1':<14} | {'':<9} | {'':<6} | {average_f1*100:.1f}%  |")
 print("__________________________________________________")
 # print("__________________________________________________")
 
-print("C. Turn-wise QM Statistics")
+print("C. Turn-wise EM Statistics")
 print("_________________________________________")
-print("| Turn  | QM Count | Total | Percentage |")
+print("| Turn  | EM Count | Total | Percentage |")
 print("|-------|----------|-------|------------|")
 
 for turn in sorted(turn_total_counts.keys()):
@@ -985,7 +986,7 @@ print(f"| >4    | {qm_count_5plus:<8} | {total_count_5plus:<5} | {percentage_5pl
 
 print("_________________________________________")
 
-print("D. Answerable QA vs. Ambiguous QA turns QM Analysis")
+print("D. Answerable QA vs. Ambiguous QA turns EX Analysis")
 print("___________________________________________________")
 print("| Metric             | Count | Total | Percentage |")
 print("|--------------------|-------|-------|------------|")
