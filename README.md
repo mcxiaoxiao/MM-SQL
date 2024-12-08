@@ -8,7 +8,7 @@ This repository contains the scripts and code used for the experiments in the "E
 - `outputs/`: Directory containing various experimental output JSON files.
 - `llm_generation.py`: The script generates responses using the LLM.
 - `RQS_eval.py`: Script for evaluating responses using GPT-4o-mini to score RQS and label the response types.
-- `ACCS_eval.py`: Script for calculating several metrics including ACCS, IACCS, EM, QM, ERROR...
+- `ACCS_eval.py`: Script for calculating several metrics including TDEX, EM, EX, ERROR...
 - `correlation_analysis.ipynb`: Jupyter notebook for calculating the Spearman and Pearson correlations between human ratings and GPT-4o ratings.
 - `analysis_outputs.ipynb`: Jupyter notebook for producing figures in a thesis.
 
@@ -49,14 +49,13 @@ A. Overall Result Analysis
 _____________________________________
 | Metric | Count | Total | Percentage |
 |--------|-------|-------|------------|
-| DUEM   | 549   | 806   | 68.1%      |
-| IDUEM   | 41    | 806   | 5.1%      |
-| QM     | 211   | 553   | 43.3%      |
-| EM     | 352   | 553   | 72.3%      |
+| TDEX   | 549   | 806   | 68.1%      |
+| EM     | 211   | 553   | 43.3%      |
+| EX     | 352   | 553   | 72.3%      |
 | ACCS   | 408   | 806   | 50.6%      |
-| IACCS  | 4     | 149   | 2.7%      |
-| ERROR  | 9     | 553   | 1.8%      |
-| IM     | 11    | 149   | 7.4%      |
+| IACCS  | 4     | 149   | 2.7%       |
+| ERROR  | 9     | 553   | 1.8%       |
+| IM     | 11    | 149   | 7.4%       |
 -------------------------------------
 B. Category Analysis
 __________________________________________________
