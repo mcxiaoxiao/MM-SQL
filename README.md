@@ -41,6 +41,8 @@ Use the `accs_eval.py` script to calculate several metrics from the output JSON 
 python python ACCS_eval.py outputs/one-shot/gpt4_scored_Llama-3-70B.json 
 ```
 
+### Citations
+
 ### Output Example
 
 ```bash
