@@ -42,7 +42,18 @@ python python ACCS_eval.py outputs/one-shot/gpt4_scored_Llama-3-70B.json
 ```
 
 ### Citations
-
+[Arxiv](https://arxiv.org/abs/2412.17867)
+```BibTeX
+@misc{guo2024evaluatingenhancingllmsmultiturn,
+      title={Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types}, 
+      author={Ziming Guo and Chao Ma and Yinggang Sun and Tiancheng Zhao and Guangyao Wang and Hai Huang},
+      year={2024},
+      eprint={2412.17867},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.17867}, 
+}
+```
 ### Output Example
 
 ```bash
