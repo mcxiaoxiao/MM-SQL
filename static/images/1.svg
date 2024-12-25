@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 1.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="10.2362in" height="4.09449in"
+		viewBox="0 0 737.008 294.803" xml:space="preserve" color-interpolation-filters="sRGB" class="st25">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#5861ac;fill-opacity:0.098;stroke:none;stroke-width:0.25}
+		.st2 {fill:#5861ac;stroke:none;stroke-width:0.25}
+		.st3 {fill:#ffffff;font-family:Arial;font-size:1.00001em;font-weight:bold}
+		.st4 {fill:#feffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Arial;font-size:0.75em}
+		.st6 {font-size:1em}
+		.st7 {fill:none;stroke:none;stroke-width:0.25}
+		.st8 {fill:#6ab4c1;fill-opacity:0.098;stroke:none;stroke-width:0.25}
+		.st9 {fill:#f17f7e;font-size:1em;font-weight:bold}
+		.st10 {fill:#d14e4e;stroke:none;stroke-linecap:butt;stroke-width:6.375}
+		.st11 {fill:#fea040;fill-opacity:0.098;stroke:none;stroke-width:0.25}
+		.st12 {fill:#4672c4;font-size:1em;font-weight:bold}
+		.st13 {font-size:1em;font-weight:bold}
+		.st14 {fill:#70ad47;stroke:none;stroke-linecap:butt;stroke-width:6.375}
+		.st15 {fill:#fea040;stroke:none;stroke-width:0.25}
+		.st16 {fill:#6ab4c1;stroke:none;stroke-width:0.25}
+		.st17 {fill:#f17f7e;fill-opacity:0.098;stroke:none;stroke-width:0.25}
+		.st18 {fill:#f17f7e;stroke:none;stroke-width:0.25}
+		.st19 {fill:#bedeab;fill-opacity:0.047;stroke:none;stroke-width:0.25}
+		.st20 {fill:#bedeab;stroke:none;stroke-width:0.75}
+		.st21 {fill:#000000;font-family:Arial;font-size:0.75em;font-weight:bold}
+		.st22 {font-size:1em;font-weight:normal}
+		.st23 {fill:url(#grad0-148);stroke:none;stroke-width:0.25}
+		.st24 {fill:url(#grad0-152);stroke:none;stroke-width:0.25}
+		.st25 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-148" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#6ab4c1" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5861ac" stop-opacity="0.039"/>
+		</linearGradient>
+		<linearGradient id="grad0-152" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#f17f7e" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape5-1" v:mID="5" v:groupContext="shape" transform="translate(486.85,-1.70078)">
+			<title>矩形.5</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="221.793" width="248.882" height="73.01" class="st1"/>
+		</g>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" transform="translate(486.85,-74.9182)">
+			<title>矩形</title>
+			<desc>Turn4: Improper</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.441" cy="281.239" width="248.89" height="27.129"/>
+			<rect x="0" y="267.674" width="248.882" height="27.129" class="st2"/>
+			<text x="76.44" y="284.84" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Turn4:  Improper</text>		</g>
+		<g id="shape96-6" v:mID="96" v:groupContext="shape" transform="translate(513.793,-46.4388)">
+			<title>工作表.96</title>
+			<desc>Thanks!</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="24.1251" cy="284.225" width="48.26" height="21.1562"/>
+			<rect x="0" y="273.647" width="48.2503" height="21.1562" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="286.7" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>Thanks<tspan class="st6"
+						v:langID="2052">!</tspan></text>		</g>
+		<g id="shape98-10" v:mID="98" v:groupContext="shape" transform="translate(710.252,-18.4252)">
+			<title>工作表.98</title>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+			<image x="0" y="271.169" width="22.331" height="23.6345" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+		</g>
+		<g id="shape102-14" v:mID="102" v:groupContext="shape" transform="translate(564.708,-11.3386)">
+			<title>工作表.102</title>
+			<desc>You&#39;re welcome! If you have any more questions, feel free to ...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.9767" cy="281.239" width="143.96" height="27.129"/>
+			<rect x="0" y="267.674" width="143.953" height="27.129" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="278.76" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>You&#39;re welcome! If you have any <tspan
+						x="4" dy="1.1em" class="st6">more questions, feel free to ask.</tspan></text>		</g>
+		<g id="shape118-18" v:mID="118" v:groupContext="shape" transform="translate(231.024,-1.41732)">
+			<title>矩形.118</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="192.607" width="248.882" height="102.196" class="st8"/>
+		</g>
+		<g id="shape120-20" v:mID="120" v:groupContext="shape" transform="translate(257.953,-67.5188)">
+			<title>工作表.120</title>
+			<desc>How many airlines have flights departing from here?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.9372" cy="281.239" width="133.88" height="27.129"/>
+			<rect x="0" y="267.674" width="133.874" height="27.129" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="278.76" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>How many airlines have<tspan
+						class="st6" v:langID="2052"> </tspan>flights <tspan x="4" dy="1.1em" class="st6">departing from </tspan><tspan
+						class="st9" v:langID="2052">here</tspan>?</text>		</g>
+		<g id="shape122-26" v:mID="122" v:groupContext="shape" transform="translate(455.134,-38.0725)">
+			<title>工作表.122</title>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+			<image x="0" y="271.169" width="22.331" height="23.6345" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+		</g>
+		<g id="shape123-30" v:mID="123" v:groupContext="shape" transform="translate(297.638,-11.3386)">
+			<title>工作表.123</title>
+			<desc>SELECT COUNT(T1.Airline) FROM Airlines AS T1 JOIN Flight AS T...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.4579" cy="271.457" width="154.92" height="46.692"/>
+			<rect x="0" y="248.111" width="154.916" height="46.692" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="259.08" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>SELECT COUNT(T1.Airline) FROM <tspan
+						x="4" dy="1.1em" class="st6" v:langID="2052">Airlines</tspan> AS T1 JOIN F<tspan class="st6"
+						v:langID="2052">light</tspan> AS T2 <tspan x="4" dy="1.1em" class="st6">ON T1.uid</tspan><tspan class="st6"
+						v:langID="2052"> </tspan>= T2.Airline WHERE <tspan x="4" dy="1.1em" class="st6">T2.sourceAirport like &#34;%APG%&#34;</tspan></text>		</g>
+		<g id="shape124-38" v:mID="124" v:groupContext="shape" transform="translate(233.15,-74.7447)">
+			<title>工作表.124</title>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+			<image x="0" y="273.647" width="21.2598" height="21.1562" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+		</g>
+		<g id="group134-42" transform="translate(499.52,-203.479)" v:mID="134" v:groupContext="group">
+			<title>工作表.134</title>
+			<g id="shape135-43" v:mID="135" v:groupContext="shape">
+				<title>工作表.135</title>
+				<path d="M7.37 288.04 L6.48 287.11 L3.68 290.04 L0.88 287.11 L0 288.04 L2.8 290.96 L0 293.88 L0.88 294.8 L3.68 291.88
+							 L6.48 294.8 L7.37 293.88 L4.57 290.96 L7.37 288.04 Z" class="st10"/>
+			</g>
+		</g>
+		<g id="shape136-45" v:mID="136" v:groupContext="shape" transform="translate(486.85,-106.299)">
+			<title>矩形.136</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="116.237" width="248.882" height="178.566" class="st11"/>
+		</g>
+		<g id="shape138-47" v:mID="138" v:groupContext="shape" transform="translate(512.755,-228.964)">
+			<title>工作表.138</title>
+			<desc>What is the flight number of Delta Airlines?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.4579" cy="279.292" width="154.92" height="31.0218"/>
+			<rect x="0" y="263.781" width="154.916" height="31.0218" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="276.82" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>What is the <tspan
+						class="st12">flight</tspan><tspan class="st12" v:langID="2052"> </tspan><tspan class="st12">number of Delta </tspan><tspan
+						x="4" dy="1.1em" class="st12">Airlines</tspan><tspan class="st12" v:langID="2052">?</tspan></text>		</g>
+		<g id="shape139-55" v:mID="139" v:groupContext="shape" transform="translate(513.393,-187.888)">
+			<title>工作表.139</title>
+			<desc>SELECT T2.FlightNo FROM airlines AS T1 JOIN flights AS T2 ON ...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.6613" cy="277.464" width="195.33" height="34.679"/>
+			<rect x="0" y="260.124" width="195.323" height="34.679" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="268.39" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>SELECT T2.FlightNo FROM airlines AS T1 <tspan
+						x="4" dy="1.1em" class="st6">JOIN flights AS T2 ON T1.uid = T2.Airline </tspan><tspan x="4" dy="1.375em"
+						class="st6">WHERE T1.Airline = &#39;Delta Airlines&#39;</tspan></text>		</g>
+		<g id="shape140-60" v:mID="140" v:groupContext="shape" transform="translate(711.015,-203.137)">
+			<title>工作表.140</title>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+			<image x="0" y="271.169" width="22.331" height="23.6345" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+		</g>
+		<g id="shape141-64" v:mID="141" v:groupContext="shape" transform="translate(513.393,-111.34)">
+			<title>工作表.141</title>
+			<desc>Your question is ambiguous. Are you asking for all flight num...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="97.6613" cy="259.764" width="195.33" height="70.0778"/>
+			<rect x="0" y="224.725" width="195.323" height="70.0778" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="237.49" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>Your question is ambiguous. Are you asking <tspan
+						x="4" dy="1.1em" class="st6">for </tspan><tspan class="st12">all flight numbers operated by Delta </tspan><tspan
+						x="4" dy="1.1em" class="st12">Airlines</tspan>, or specifically <tspan class="st9">those departing from </tspan><tspan
+						x="4" dy="1.1em" class="st9">APG</tspan>? If you&#39;re asking for the former, the SQL <tspan x="4"
+						dy="1.1em" class="st6">query would be </tspan><tspan class="st13">[SQL1]</tspan>. If you&#39;re asking for the <tspan
+						x="4" dy="1.1em" class="st6">latter, the SQL query would be</tspan><tspan class="st13"> </tspan><tspan
+						class="st13">[SQL2]</tspan>.</text>		</g>
+		<g id="group146-77" transform="translate(498.024,-142.465)" v:mID="146" v:groupContext="group">
+			<title>工作表.146</title>
+			<g id="shape147-78" v:mID="147" v:groupContext="shape">
+				<title>工作表.147</title>
+				<path d="M9.45 287.76 L3.71 293.01 L0.95 290.28 L0 291.16 L3.67 294.8 L4.63 293.94 L10.36 288.68 L9.45 287.76 Z"
+						class="st14"/>
+			</g>
+		</g>
+		<g id="shape137-80" v:mID="137" v:groupContext="shape" transform="translate(486.85,-266.54)">
+			<title>矩形.137</title>
+			<desc>Turn3: Ambiguous</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.441" cy="281.239" width="248.89" height="27.129"/>
+			<rect x="0" y="267.674" width="248.882" height="27.129" class="st15"/>
+			<text x="71.11" y="286.64" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Turn3: Ambiguous</text>		</g>
+		<g id="shape119-83" v:mID="119" v:groupContext="shape" transform="translate(231.024,-100.713)">
+			<title>矩形.119</title>
+			<desc>Turn2: Answerable</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.441" cy="281.239" width="248.89" height="27.129"/>
+			<rect x="0" y="267.674" width="248.882" height="27.129" class="st16"/>
+			<text x="70.43" y="284.84" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Turn2: <tspan
+						class="st6" v:langID="1033">Answerable</tspan></text>		</g>
+		<g id="shape178-87" v:mID="178" v:groupContext="shape" transform="translate(231.024,-131.811)">
+			<title>矩形.178</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="149.509" width="248.882" height="145.294" class="st17"/>
+		</g>
+		<g id="shape179-89" v:mID="179" v:groupContext="shape" transform="translate(257.307,-232.241)">
+			<title>工作表.179</title>
+			<desc>How many flights take off from airport APG each day?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="66.9372" cy="281.239" width="133.88" height="27.129"/>
+			<rect x="0" y="267.674" width="133.874" height="27.129" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="277.11" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>How many flights take off <tspan
+						class="st9">from </tspan><tspan x="4" dy="1.375em" class="st9">airport APG</tspan> each day?</text>		</g>
+		<g id="shape180-94" v:mID="180" v:groupContext="shape" transform="translate(455.134,-202.677)">
+			<title>工作表.180</title>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+			<image x="0" y="271.169" width="22.331" height="23.6345" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+		</g>
+		<g id="shape184-98" v:mID="184" v:groupContext="shape" transform="translate(231.024,-266.54)">
+			<title>矩形.184</title>
+			<desc>Turn1: Unanswerable</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="124.441" cy="281.239" width="248.89" height="27.129"/>
+			<rect x="0" y="267.674" width="248.882" height="27.129" class="st18"/>
+			<text x="63.43" y="284.84" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Turn1: Unanswerable</text>		</g>
+		<g id="shape185-101" v:mID="185" v:groupContext="shape" transform="translate(274.074,-146.738)">
+			<title>工作表.185</title>
+			<desc>I&#39;m sorry, the database does not include information about fl...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.7345" cy="277.464" width="179.47" height="34.679"/>
+			<rect x="0" y="260.124" width="179.469" height="34.679" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="270.04" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>I&#39;m sorry, the database does not include <tspan
+						x="4" dy="1.1em" class="st6">information about flight schedules or </tspan><tspan x="4" dy="1.1em"
+						class="st6">dates. </tspan> </text>		</g>
+		<g id="shape194-106" v:mID="194" v:groupContext="shape" transform="translate(0.319153,-1.41731)">
+			<title>矩形.194</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="29.7637" width="223.618" height="265.039" class="st19"/>
+		</g>
+		<g id="shape195-108" v:mID="195" v:groupContext="shape" transform="translate(0.319153,-266.741)">
+			<title>矩形.195</title>
+			<desc>Database schema given</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="111.809" cy="281.239" width="223.62" height="27.129"/>
+			<rect x="0" y="267.674" width="223.618" height="27.129" class="st20"/>
+			<text x="45.44" y="284.84" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>D<tspan class="st6"
+						v:langID="1033">atabase schema</tspan> given</text>		</g>
+		<g id="shape208-112" v:mID="208" v:groupContext="shape" transform="translate(0.319153,13.6063)">
+			<title>工作表.208</title>
+			<desc>Airlines uid:airline id type:number PRIMARY KEY Airline:airli...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="119.746" cy="153.523" width="239.5" height="282.56"/>
+			<rect x="0" y="12.243" width="239.491" height="282.56" class="st7"/>
+			<text x="4" y="28.65" class="st21" v:langID="1033"><v:paragraph v:spLine="-1.5"/><v:tabList/>Airlines<v:newlineChar/><tspan
+						x="4" dy="1.5em" class="st22">uid:airline id type:number PRIMARY KEY<v:newlineChar/></tspan><tspan x="4"
+						dy="1.5em" class="st22">Airline:airline name type:text<v:newlineChar/></tspan><tspan x="4" dy="1.5em"
+						class="st22">Abbreviation:abbreviation type:text<v:newlineChar/></tspan><tspan x="4" dy="1.5em"
+						class="st22">Country:country type:text<v:newlineChar/></tspan><tspan x="4" dy="1.5em" class="st6">Airports<v:newlineChar/></tspan><tspan
+						x="4" dy="1.5em" class="st22">City:city type:text<v:newlineChar/></tspan><tspan x="4" dy="1.5em"
+						class="st22">AirportCode:airport code type:text PRIMARY KEY<v:newlineChar/></tspan><tspan x="4" dy="1.5em"
+						class="st22">AirportName:airport name type:text<v:newlineChar/></tspan><tspan x="4" dy="1.5em" class="st22">Country:country type:text<v:newlineChar/></tspan><tspan
+						x="4" dy="1.5em" class="st22">CountryAbbrev:country abbrev type:text<v:newlineChar/></tspan><tspan x="4"
+						dy="1.5em" class="st6">Flights<v:newlineChar/></tspan><tspan x="4" dy="1.5em" class="st22">Airline:airline type:number PRIMARY KEY<v:newlineChar/></tspan><tspan
+						x="4" dy="1.5em" class="st22">FlightNo:flight number type:number<v:newlineChar/></tspan><tspan x="4"
+						dy="1.5em" class="st22">SourceAirport:source airport type:text<v:newlineChar/></tspan><tspan x="4"
+						dy="1.5em" class="st22">DestAirport:destination airport type:text<v:newlineChar/></tspan><tspan x="4"
+						dy="1.5em" class="st6">Foreign keys:<v:newlineChar/></tspan><tspan x="4" dy="1.5em" class="st22">flights.&#39;DestAirport&#39; = airports.&#39;AirportCode&#39;<v:newlineChar/></tspan><tspan
+						x="4" dy="1.5em" class="st22">flights.&#39;SourceAirport&#39; = airports.&#39;AirportCode&#39;</tspan><v:newlineChar/></text>		</g>
+		<g id="shape209-133" v:mID="209" v:groupContext="shape" transform="translate(488.976,-237.412)">
+			<title>工作表.209</title>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+			<image x="0" y="273.647" width="21.2598" height="21.1562" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+		</g>
+		<g id="shape210-137" v:mID="210" v:groupContext="shape" transform="translate(233.15,-238.214)">
+			<title>工作表.210</title>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+			<image x="0" y="273.647" width="21.2598" height="21.1562" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+		</g>
+		<g id="shape211-141" v:mID="211" v:groupContext="shape" transform="translate(489.795,-46.4811)">
+			<title>工作表.211</title>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+			<image x="0" y="273.647" width="21.2598" height="21.1562" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="273.647" width="21.2598" height="21.1562" class="st7"/>
+		</g>
+		<g id="shape212-145" v:mID="212" v:groupContext="shape" transform="translate(1493.29,227.532) rotate(90)">
+			<title>三角形</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M13.41 294.8 L6.71 287.57 L0 294.8 L13.41 294.8 Z" class="st23"/>
+		</g>
+		<g id="shape213-149" v:mID="213" v:groupContext="shape" transform="translate(1247.33,559.843) rotate(180)">
+			<title>三角形.213</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M13.41 294.8 L6.71 287.57 L0 294.8 L13.41 294.8 Z" class="st24"/>
+		</g>
+		<g id="group221-153" transform="translate(260.787,-201.999)" v:mID="221" v:groupContext="group">
+			<title>工作表.221</title>
+			<g id="shape222-154" v:mID="222" v:groupContext="shape">
+				<title>工作表.222</title>
+				<path d="M7.37 288.04 L6.48 287.11 L3.68 290.04 L0.88 287.11 L0 288.04 L2.8 290.96 L0 293.88 L0.88 294.8 L3.68 291.88
+							 L6.48 294.8 L7.37 293.88 L4.57 290.96 L7.37 288.04 Z" class="st10"/>
+			</g>
+		</g>
+		<g id="shape223-156" v:mID="223" v:groupContext="shape" transform="translate(273.825,-188.504)">
+			<title>工作表.223</title>
+			<desc>SELECT date, COUNT(*) AS flight_count FROM flights WHERE depa...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="89.7345" cy="277.464" width="179.47" height="34.679"/>
+			<rect x="0" y="260.124" width="179.469" height="34.679" rx="8.50394" ry="8.50394" class="st4"/>
+			<text x="4" y="270.04" class="st5" v:langID="1033"><v:paragraph v:spLine="-1.1"/><v:tabList/>SELECT date, COUNT(*) AS flight_count<v:newlineChar/><tspan
+						x="4" dy="1.1em" class="st6">FROM flights</tspan><tspan class="st6" v:langID="2052"> </tspan>WHERE departure_airport = <tspan
+						x="4" dy="1.1em" class="st6">&#39;APG&#39;</tspan><tspan class="st6" v:langID="2052"> </tspan>GROUP BY date</text>		</g>
+		<g id="shape224-163" v:mID="224" v:groupContext="shape" transform="translate(949.508,120.658)">
+			<title>工作表.224</title>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+			<image x="0" y="271.169" width="22.331" height="23.6345" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="271.169" width="22.331" height="23.6345" class="st7"/>
+		</g>
+		<g id="group225-167" transform="translate(258.932,-160.558)" v:mID="225" v:groupContext="group">
+			<title>工作表.225</title>
+			<g id="shape226-168" v:mID="226" v:groupContext="shape">
+				<title>工作表.226</title>
+				<path d="M9.45 287.76 L3.71 293.01 L0.95 290.28 L0 291.16 L3.67 294.8 L4.63 293.94 L10.36 288.68 L9.45 287.76 Z"
+						class="st14"/>
+			</g>
+		</g>
+	</g>
+</svg>
