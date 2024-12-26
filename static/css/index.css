@@ -8,12 +8,18 @@ body {
   margin-right: auto;
 }
 
+.footer-logos-container {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Aligns the images vertically */
+  gap: 1%; /* Adds space between images */
+}
+
 .footer-logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 5%;
 }
+
 
 .footer .icon-link {
     font-size: 25px;
