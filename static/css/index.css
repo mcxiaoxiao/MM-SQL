@@ -8,6 +8,12 @@ body {
   margin-right: auto;
 }
 
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
 
 .footer .icon-link {
     font-size: 25px;
