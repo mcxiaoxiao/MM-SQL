@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center; /* Centers the images horizontally */
   align-items: center; /* Aligns the images vertically */
-  gap: 1%; /* Adds space between images */
+  gap: 2%; /* Adds space between images */
 }
 
 .footer-logo {
