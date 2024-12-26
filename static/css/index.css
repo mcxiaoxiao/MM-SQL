@@ -10,9 +10,9 @@ body {
 
 .footer-logos-container {
   display: flex;
-  justify-content: center; /* Centers the images horizontally */
-  align-items: center; /* Aligns the images vertically */
-  gap: 2%; /* Adds space between images */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
 }
 
 .footer-logo {
