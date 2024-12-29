@@ -184,7 +184,7 @@
   <!-- End paper abstract -->
 
 
-
+  <h2 class="title is-3">Motivation</h2>
   <section class="hero is-small">
     <div class="hero-body">
       <img src="static/images/1.svg" alt="fig.1" class="center-image" />
@@ -209,7 +209,7 @@
       </div>
     </div>
   </section>
-
+  <h2 class="title is-3">Dataset</h2>
   <section class="hero is-small">
     <div class="hero-body">
       <img src="static/images/2.png" alt="Table 1" class="center-image" style="max-width: 700px;" />
@@ -271,7 +271,7 @@
       
             </tbody>
           </table>
-
+          <h2 class="title is-3">Evaluation</h2>
           <p>Our evaluation metrics include Exact Matching (EM) and Execution Accuracy (EX). EM compares each predicted clause to the reference query, considering it correct only if all components match, excluding values. EX evaluates the proportion of SQL where the execution results of both predicted and ground-truth SQL are identical. Interaction Execution Accuracy (IEX) is achieved when all SQL queries in a multi-turn interaction execute correctly. We also developed the Dual Assessment of Question Type Detection and Execution Accuracy (TDEX) to assess the comprehensive capability of text-to-SQL models with complex queries. Additionally, the Response Quality Score (RQS) measures the quality of the model's natural language responses.</p>
 
           <p>TDEX is a comprehensive metric that evaluates the accuracy of user query type classification and execution accuracy. For a set of \( N \) questions, where \( C_i \) denotes the expected classification and \( \hat{C}_i \) represents the predicted classification for the \( i \)-th question, \( S_i \) denotes the ground truth SQL query and \( \hat{S}_i \) represents the predicted SQL query for the \( i \)-th question, TDEX is computed as:</p>
