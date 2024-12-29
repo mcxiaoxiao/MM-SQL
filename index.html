@@ -392,6 +392,33 @@
     </div>
   </section>
 
+  <section class="hero is-small">
+    <div class="hero-body">
+      
+      
+      <div class="container is-max-desktop content">
+        <div class="content">
+          <h2 class="title is-3">Multi-AWgent Framework</h2>
+          <img src="static/images/1.svg" alt="fig.1" class="center-image" />
+      <p class="has-text-centered">
+        Fig. 2 The overview of our multi-agent framework comprises four components: (i) the Schema Selector, which narrows down the database schema to focus on relevant tables, reducing noise from irrelevant data; (ii) the Question Detector, which determines its type and reformulates it if the question is deemed potentially ambiguous, potentially generating multiple possible rewrites; (iii) the Question Decomposer, which breaks down complex questions into simpler, manageable sub-questions and applies chain-of-thought reasoning to solve them progressively; and (iv) the SQL Refiner, which utilizes an external tool for SQL execution, gathers feedback, then refines faulty SQL queries.
+      </p>
+          <p>
+            In the realm of text-to-SQL systems, which empower non-technical users to query databases using natural
+            language, the advent of large language models (LLMs) has led to significant advancements. However, a
+            critical challenge remains: handling the dynamic and uncertain nature of real-world user queries. These
+            queries often unfold over multiple turns and can be ambiguous or unanswerable. For instance, users may ask
+            questions that lack the necessary data in the database or are open to multiple interpretations, as
+            illustrated in Figure 1. Additionally, some queries may be entirely unrelated to the database content,
+            requiring the system to discern when not to generate SQL responses. Current models frequently assume all
+            queries are clear and answerable, a limitation that can lead to hallucinated content and unreliable
+            predictions. Addressing these issues is essential for developing more robust and dependable text-to-SQL
+            systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
