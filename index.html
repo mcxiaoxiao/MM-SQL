@@ -377,6 +377,43 @@
                 <td>4.37</td>
             </tr>
         </table>
+
+        <p>Overview:<br>
+          We evaluated several Large Language Models (LLMs) on their zero-shot capabilities in handling multi-turn conversational text-to-SQL tasks using the MMSQL test set. Main findings as below:</p>
+          
+          <ol>
+              <li>
+                  <strong>Comparison between Closed-Source and Open-Source Models:</strong>
+                  <ul>
+                      <li><strong>GPT-4 Turbo</strong> demonstrated exceptional performance with a Total Execution (TDEX) score of 67.0 and the highest Response Quality Score (RQS) of 5.8.</li>
+                      <li><strong>Gemini-1.5 Flash</strong> also performed excellently with a TDEX score of 65.8.</li>
+                      <li><strong>Open-source models</strong> like <em>Llama3-70B</em> and <em>Llama3-8B</em> achieved TDEX scores of 62.8 and 64.0 respectively, nearing or surpassing some closed-source models like GPT-3.5. This highlights the robust potential of open-source models in zero-shot settings and their rapid advancement.</li>
+                  </ul>
+              </li>
+              <li>
+                  <strong>Inferior Performance in Specific Question Types:</strong>
+                  <ul>
+                      <li><strong>All models</strong> faced significant challenges with unanswerable and ambiguous questions, particularly the latter.</li>
+                      <li>For example, despite strong overall performance, <em>GPT-4 Turbo</em> showed much lower precision and recall for unanswerable questions (precision 56.9%, recall 38.4%) and ambiguous questions (precision 25.9%, recall 70.0%) compared to other types.</li>
+                      <li>This pattern is consistent across models, indicating a widespread difficulty in accurately distinguishing such question types, highlighting a need for further improvement.</li>
+                      <li>In terms of natural language response quality, <em>Gemini-1.5 Flash</em> performs well on unanswerable questions but significantly drops on ambiguous questions, underscoring a common challenge in interpreting and responding to ambiguous queries.</li>
+                  </ul>
+              </li>
+              <li>
+                  <strong>Clarification for Ambiguous Queries:</strong>
+                  <ul>
+                      <li>Models exhibit a notable decline in execution accuracy when addressing ambiguous queries compared to clear, answerable ones.</li>
+                      <li>For instance, <em>GPT-4 Turbo</em>'s execution accuracy decreases from 51.0% with answerable queries to 41.3% with ambiguous ones.</li>
+                      <li>However, execution accuracy improves significantly when models detect ambiguity and prompt users for clarification. For example, after clarification, <em>GPT-3.5 Turbo</em>'s query match accuracy rises from 34.5% to 49.0%.</li>
+                      <li>This suggests that generating SQL for ambiguous queries without clarification leads to diminished performance. Therefore, it's crucial for models to effectively communicate ambiguities to users, aiding in obtaining accurate information.</li>
+                  </ul>
+              </li>
+          </ol>
+          
+          <p><strong>Conclusion:</strong><br>
+          - Closed-source models currently have a slight performance edge, but open-source models are rapidly catching up, showing strong potential.<br>
+          - All models struggle with unanswerable and ambiguous questions, marking areas that need significant improvement.<br>
+          - Incorporating clarification processes in multi-turn interactions allows models to formulate more precise SQL queries, enhancing the usability and effectiveness of text-to-SQL systems.</p>
         
         </div>
       </div>
