@@ -301,6 +301,81 @@
       
           <p>where \( \varepsilon_{\text{exec}} = 1 \) if the execution result of \( \hat{S}_i \) matches the execution result of \( S_i \), and \( \varepsilon_{\text{exec}} = 0 \) otherwise; \( \delta_{\text{type}} = 1 \) if \( \hat{C}_i \) matches \( C_i \), and \( \delta_{\text{type}} = 0 \) otherwise.</p>
           <p>To evaluate the quality of a model's responses, we use an LLM-assisted rating method assessing Utility, Accuracy, Completeness, Clarity, and Relevance on a 0-to-2 scale, with a maximum score of 10.</p>
+          <table>
+            <tr>
+                <th>Model</th>
+                <th>TDEX</th>
+                <th>IEX</th>
+                <th>EX</th>
+                <th>EM</th>
+                <th>RQS</th>
+            </tr>
+            <tr>
+                <td>GPT-4 Turbo</td>
+                <td>67.0</td>
+                <td>30.2</td>
+                <td>70.0</td>
+                <td>51.0</td>
+                <td>5.80</td>
+            </tr>
+            <tr>
+                <td>GPT-3.5 Turbo</td>
+                <td>64.1</td>
+                <td>25.5</td>
+                <td>69.6</td>
+                <td>47.3</td>
+                <td>4.74</td>
+            </tr>
+            <tr>
+                <td>Gemini-1.5 Flash</td>
+                <td>65.8</td>
+                <td>30.1</td>
+                <td>70.0</td>
+                <td>52.3</td>
+                <td>4.03</td>
+            </tr>
+            <tr>
+                <td>Llama3-70B</td>
+                <td>62.8</td>
+                <td>22.8</td>
+                <td>66.4</td>
+                <td>47.4</td>
+                <td>3.86</td>
+            </tr>
+            <tr>
+                <td>Llama3-8B</td>
+                <td>64.0</td>
+                <td>20.1</td>
+                <td>66.1</td>
+                <td>45.7</td>
+                <td>4.55</td>
+            </tr>
+            <tr>
+                <td>SQLCoder-8B</td>
+                <td>30.7</td>
+                <td>24.8</td>
+                <td>63.2</td>
+                <td>31.0</td>
+                <td>3.43</td>
+            </tr>
+            <tr>
+                <td>Codellama-7B</td>
+                <td>30.7</td>
+                <td>3.4</td>
+                <td>27.2</td>
+                <td>21.7</td>
+                <td>5.09</td>
+            </tr>
+            <tr>
+                <td>Mistral-7B-v0.2</td>
+                <td>26.4</td>
+                <td>0.7</td>
+                <td>13.7</td>
+                <td>11.2</td>
+                <td>4.37</td>
+            </tr>
+        </table>
+        
         </div>
       </div>
     </div>
