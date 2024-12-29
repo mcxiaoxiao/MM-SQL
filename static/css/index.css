@@ -10,7 +10,7 @@ body {
 
 table {
   width: 25%;
-  margin: 50px auto;
+  margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 2px 3px rgba(0,0,0,0.1);
 }
