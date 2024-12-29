@@ -10,7 +10,7 @@ body {
 
 table {
   width: 25%;
-  margin: 20px auto;
+  margin: 50px auto;
   border-collapse: collapse;
   box-shadow: 0 2px 3px rgba(0,0,0,0.1);
 }
@@ -25,11 +25,7 @@ th {
 tr:hover {
   background-color: #f1f1f1;
 }
-a {
-  text-decoration: none;
-  color: #3498db;
-  font-weight: bold;
-}
+
 a:hover {
   color: #2980b9;
 }
