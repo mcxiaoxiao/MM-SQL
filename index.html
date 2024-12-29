@@ -404,23 +404,28 @@
         Fig. 2 The overview of our multi-agent framework comprises 4 components: (i) the Schema Selector, which narrows down the database schema to focus on relevant tables, reducing noise from irrelevant data; (ii) the Question Detector, which determines its type and reformulates it if the question is deemed potentially ambiguous, potentially generating multiple possible rewrites; (iii) the Question Decomposer, which breaks down complex questions into simpler, manageable sub-questions and applies chain-of-thought reasoning to solve them progressively; and (iv) the SQL Refiner, which utilizes an external tool for SQL execution, gathers feedback, then refines faulty SQL queries.
       </p>
           <p>
-            In the realm of text-to-SQL systems, which empower non-technical users to query databases using natural
-            language, the advent of large language models (LLMs) has led to significant advancements. However, a
-            critical challenge remains: handling the dynamic and uncertain nature of real-world user queries. These
-            queries often unfold over multiple turns and can be ambiguous or unanswerable. For instance, users may ask
-            questions that lack the necessary data in the database or are open to multiple interpretations, as
-            illustrated in Figure 1. Additionally, some queries may be entirely unrelated to the database content,
-            requiring the system to discern when not to generate SQL responses. Current models frequently assume all
-            queries are clear and answerable, a limitation that can lead to hallucinated content and unreliable
-            predictions. Addressing these issues is essential for developing more robust and dependable text-to-SQL
-            systems.
-          </p>
-          <img src="static/images/3.png" alt="fig.3" class="center-image"  style="max-width: 700px;" />
-          <img src="static/images/4.png" alt="fig.4" class="center-image"  style="max-width: 700px;" />
+            We have developed a multi-agent collaborative framework designed to improve the performance of Large Language Models (LLMs) in text-to-SQL parsing tasks. This framework leverages intelligent agents with specialized functionalities, working together to enhance the accuracy and efficiency of converting natural language queries into SQL commands.
+
+Our framework consists of four key components:
+<tr>
+  <li>Schema Selector: This agent identifies the most relevant subset of the database schema needed to answer a given question, reducing noise and potential confusion caused by irrelevant data.</li>
+<br>
+<li>Question Detector: It determines the type of question and decides on the appropriate response strategy, effectively handling ambiguous or unanswerable queries by providing clarifications or alternative formulations.</li>
+<br>
+<li>Question Decomposer: This component breaks down complex questions into simpler, manageable sub-questions, applying chain-of-thought reasoning to progressively solve each part of the query.</li>
+<br>
+SQL Refiner: It refines and verifies the SQL queries generated, utilizing external tools to execute the SQL statements, gather feedback, and iteratively correct any errors to ensure the accuracy of the final output.
+</tr></p>
+          <img src="static/images/3.png" alt="Table 3" class="center-image"  style="max-width: 700px;" />
           <p class="has-text-centered">
             Table 3 Performance metrics comparison on the MMSQL test set, demonstrating the
             improvements achieved by integrating the multi-agent framework with different models. Specific
             improvements are indicated in parentheses.
+          </p>
+          <img src="static/images/4.png" alt="Table 4" class="center-image"  style="max-width: 700px;" />
+          <p class="has-text-centered">
+            Table 4 Ablation study examining the impact of each component within the
+            multi-agent framework on the model’s performance on the MMSQL test set.            
           </p>
           <p>Our experiments demonstrate that integrating this multi-agent framework with existing LLMs significantly improves their performance in text-to-SQL tasks. By collaboratively employing specialized agents, our multi-agent framework enhances the capabilities of LLMs in handling complex, ambiguous, and multi-turn queries in text-to-SQL parsing. Each component contributes uniquely to the overall performance, ensuring that natural language queries are accurately and efficiently translated into SQL commands. This approach is particularly valuable in applications involving large, complex databases where precision and reliability are crucial.</p>
         </div>
