@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+
+<script>
+  function forceDownload(url) {
+    // 创建一个隐藏的<a>元素
+    var link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', '');
+  
+    // 触发点击事件
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+  </script>
+
 <html>
 
 <head>
@@ -256,13 +271,13 @@
                 <td>MMSQL Test Set (238 KB)</td>
                 <td>
                   <a href="https://raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_test.json">Preview</a> |
-                  <a href="https://raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_test.json" download = "MMSQL_test.json">Download</a>                </td>
+                  <a href="#" onclick="forceDownload('https:\/\/raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_test.json')">Download</a>                </td>
               </tr>
               <tr>
                 <td>MMSQL Training Set (16.5 MB)</td>
                 <td>
                   <a href="https://raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_train.json">Preview</a> |
-                  <a href="https://raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_train.json" download = "MMSQL_train.json">Download</a>                </td>
+                  <a href="#" onclick="forceDownload('https:\/\/raw.githubusercontent.com/mcxiaoxiao/MMSQL/refs/heads/paper/datasets/MMSQL_train.json')">Download</a>                </td>
               </tr>
             </tbody>
           </table>
