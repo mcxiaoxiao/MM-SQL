@@ -1,4 +1,4 @@
-<img src="https://github.com/mcxiaoxiao/MMSQL/blob/paper/mmsql.png" alt="MMSQL" style="max-width: 50px; height: auto;">
+<img src="https://github.com/mcxiaoxiao/MMSQL/blob/paper/mmsql.png" alt="MMSQL" style="max-width: "50px"; height: auto;">
 
 
 # MMSQL
