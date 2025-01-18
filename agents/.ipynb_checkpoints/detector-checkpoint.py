@@ -14,7 +14,7 @@ class Detector(Agent):
         
         sys_prompt = """As an experienced and professional database administrator, your task is to analyze a user question. If the question type is: 'improper' / 'unanswerable' / 'ambiguous', directly answer with the appropriate term. If the question type is 'answerable', directly respond with "Yes". You need to identify the problem type step by step and output. The output should contain JSON format."""
         if input_data["mini_schema"] == "None":
-            usr_prompt = f"""告诉用户问题不可被回答并根据数据库schema给出修改问题的建议（你可以这样问...）
+            usr_prompt = f"""Inform the user that the question cannot be answered and provide suggestions for modifying the question based on the database schema.
 [DB_ID] {input_data["db_desc"]}
 [Schema] 
 {input_data["mini_schema"]}
